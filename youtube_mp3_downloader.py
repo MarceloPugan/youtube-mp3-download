@@ -82,7 +82,7 @@ canvas.create_window(250, 160, window=progress_bar)
 download_button = ttk.Button(window, text='Download MP3', style='TButton', command=downloadThread)
 canvas.create_window(240, 190, window=download_button)
 
-creditos = ttk.Label(window, text="creado por: Marcelo de Oliveira Pugan", font=(6))
+creditos = ttk.Label(window, text="criador: Marcelo de Oliveira Pugan", font=(6))
 canvas.create_window(360, 240, window=creditos)
 
 window.mainloop()
